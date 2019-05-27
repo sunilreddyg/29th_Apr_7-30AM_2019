@@ -13,11 +13,11 @@ Recognize object with unique attributes
 Syntax:-->
 		//tagname[@property='propertyvalue']
 
-		
+		//input[@id='email']
 -------------------------------------------------------------------
 
 Example1:--->
-Recognize object when parent element having single child element
+Recognize object using parent node. When parent node having Single Child node.
 ------------->Html Source--------->   
 
 <html>
@@ -35,7 +35,7 @@ Recognize object when parent element having single child element
 Syntax:--->
 		//parenttagname[@property='pvalue']/childtagname
 		
-	
+		//div[@id='reg_login']/input
 
 ------------------------------------------------------------------------
 Example2:-->
@@ -58,7 +58,7 @@ Recognize object when parent element having Group child element
 syntax:-->
 		//parentagname[property='propertyvalue']/childtagname[prop='propvalue']
 		
-		
+		//div[@id='reg_login']/input[@type='text']
 --------------------------------------------------------------------------
 Example:--> Absolute xpath  [Identify location using position]
 	
@@ -80,7 +80,7 @@ HtmlSource:-->
 		Syntax:--> 
 				tagname[int position]
 			
-			
+			/html/body/div[2]/input[2]
 		
 --------------------------------------------------------------------	
 Example3:-->
