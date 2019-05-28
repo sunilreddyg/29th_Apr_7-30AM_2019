@@ -66,6 +66,29 @@ public class String_Comparision_Commands
 		System.out.println("Accout Start digits numbers are => "+start_digits);
 		
 		
+		/*
+		 * trim:-->
+		 * 		Method trim left and right extra spaces with in string
+		 */
+		String Zipcode="   500076   ";
+		System.out.println("before trim length os zipcode is => "+Zipcode.length());
+		//trim extra spaces
+		String New_ZipCode=Zipcode.trim();
+		System.out.println("After trim length of zipcode is => "+New_ZipCode.length());
+		
+		
+		/*
+		 * isEmpty:-->
+		 * 		Method verify String empty status using true/false.
+		 */
+		String status="";
+		String status1="Hello";
+		
+		System.out.println("Empty Status is => "+status.isEmpty());
+		System.out.println("Empty Status is => "+status1.isEmpty());
+		
+		
+		
 		
 		
 		
