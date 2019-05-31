@@ -86,30 +86,38 @@ getText:--->
 				  System.out.println(Element_text);
 				  
 			Note1:--> if selected element not contains any text method
-				      return empty status.
-				   
-			Note2:--> Method capture selected element and it's child
-					  outtertext.	
-					  
-			Note3:--> Method capture only visible text on webpage,In case element not 
-							visible method return empty status.
-					
+				           return empty status.
+				           
+           Note3:--> Method capture only visible text on webpage,In case element not 
+						   visible method return empty status.
+   
+			Note3:--> Method capture selected element and it's child
+					        outtertext.	
+					 
 					Que:-->What we can verify with gettext?..  
 							
 							* We can verify Status messages visible at webpage
 							* We can verify error messages visible at webpage
+							* We can verify ToolTip messages visible at webapge
+							* We can verify Info messages visible at webapge
 							* We can verify expected text visible at webpage
 ======================================================>>
 getAttribute("propertyname");
 	
-			Method capture runtime attribute value using attributename.
+		Method capture runtime attribute value using attributename.
 				  
 				  
-				Syntax:-->  
-				  	WebElement Element=driver.findElement(By.id("x"));
-				  	String value=Element.getAttribute("attributename");
-				  	System.out.println(value);	
+		Syntax:-->  
+		  	WebElement Element=driver.findElement(By.id("x"));
+		  	String value=Element.getAttribute("attributename");
+		  	System.out.println(value);	
+		  	
 				  	
+		  	Note:--> Developer use attributes, to chanage runtime
+		  			behaviour of element. by capture element attributes
+		  			at runtime we can prove element behaviour available
+					w.r.t client requirement.
+		  	
 Example:-->
 			   Captrue editbox input value.
 			   
