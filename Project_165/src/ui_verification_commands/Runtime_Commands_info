@@ -150,8 +150,8 @@ getTagname():-->>
 			Method return selected element tagname at runtime.		
 			
 			Syntax:-->
-							String Runtime_Tagname=driver.findElement(By.id("x")).gettagname();
-							System.out.println(Runtime_Tagname);
+			String Runtime_Tagname=driver.findElement(By.id("x")).gettagname();
+			System.out.println(Runtime_Tagname);
 =====================================================>>
 getLocation:--->
 				Method capture selected element location at webpage
