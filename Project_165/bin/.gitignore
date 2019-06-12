@@ -1,5 +1,8 @@
+/selenium_webdriver/
+/selenium_webdriver1/
+/switch_commands/
+/touch_actions/
 /ui_verification_commands/
 /validation_commands/
-/switch_commands/
-/mouse_and_keyboard_interactions/
-/touch_actions/
+/webdriver_locators/
+/screen_capture/

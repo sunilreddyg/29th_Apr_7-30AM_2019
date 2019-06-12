@@ -1,0 +1,29 @@
+Mouse Interactions:-->
+
+	Click
+	DoubleClick
+	ContextClick  --> RightClick
+	MoveToElement
+	ClickAndHold
+	Release
+	DragAndDrop
+	DragAndDropBy
+	
+	
+Keyboard Interactions:-->	
+	
+	Sendkeys
+	KeyDown
+	keyUp
+	
+	
+	Note:--> Inorder to use above mouse and keyboard interactions
+			 we need to create object for "Actions" class..
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
