@@ -13,6 +13,10 @@ public class MouseHover_Visibility_of_Element
 
 	public static void main(String[] args) throws Exception 
 	{
+		//set runtime environment variable
+		String driver_path="D:\\sunill\\29th_Apr_7-30_AM_2019\\Project_165\\drivers\\chromedriver.exe";
+		System.setProperty("webdriver.chrome.driver",driver_path);
+		
 		
 		//browser initiation command
 		WebDriver driver=new ChromeDriver();
@@ -26,23 +30,28 @@ public class MouseHover_Visibility_of_Element
 		 * 		browser by creation of object for Actions Class.
 		 */
 		Actions action=new Actions(driver);
-	
-		//Identify Element
-		WebElement Category=driver.findElement(By.xpath("//span[contains(.,'Category')]"));
-		action.moveToElement(Category).perform();
-		Thread.sleep(4000);
-		
-		
 		//Create object for explicitwait
 		WebDriverWait wait=new WebDriverWait(driver, 30);
-		wait.until(ExpectedConditions.visibilityOfElementLocated
-				(By.xpath("//span[@class='nav-text'][contains(.,'Mobiles, Computers')]"))).click();
 		
 		
 		
+		By Category_locator=By.xpath("//span[contains(.,'Category')]");
+		WebElement Category_Element=wait.until(ExpectedConditions.visibilityOfElementLocated(Category_locator));
+		//perfrom hover action on element
+		action.moveToElement(Category_Element).perform();
 		
 		
+		By Mobiles_locator=By.xpath("//span[@class='nav-text'][contains(.,'Mobiles, Computers')]");
+		WebElement Mobile_Element=wait.until(ExpectedConditions.visibilityOfElementLocated(Mobiles_locator));
+		//Perform hover action on it
+		action.moveToElement(Mobile_Element).perform();
 		
+		
+		By Laptops_locator=By.xpath("//span[contains(.,'Laptops')]");
+		wait.until(ExpectedConditions.visibilityOfElementLocated(Laptops_locator)).click();
+		
+		
+	
 
 	}
 

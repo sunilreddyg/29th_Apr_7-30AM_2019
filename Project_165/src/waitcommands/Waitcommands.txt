@@ -55,29 +55,28 @@ Implicitwait:-->
 ExplicitWait:-->
 	* Explicitwait manage timegap w.r.t application.
 	* Using explicitwait statement we can set timegap for object behaviour.
-		it will wait until object behaviour load at front page.
+		Explicitwait  waits until object behaviour load at front page.
 		
-
-
 	Note:--> ExplicitWait accomplish with "Expected Conditions" class
 
 	ExpectedConditions:-->
 		is a Userinterface valdiation class. It contain set of 
 		validation commands to check UserInterface behaviour...
 
-		Expected conditions also can implement directly without
-		help of wait commands...
+	Note:-->	Expected conditions also can implement directly without
+				help of wait commands...
+				
 								titleis
 								titlecontains
 								urltobe
 								urlcontains
 								ElementselectionstateToBe
 								ElementTobeselected
-								visbilityfoElementLocatedBy
-								InvisibilityofElementLocatedBy
-								PresenceofElementLocatedBy
+								visbilityfoElementLocated
+								InvisibilityofElementLocated
+								PresenceofElementLocated
 								ElementTobeClickable
-								TextpresentedAtElementlocation
+								TextpresentedAtElementlocated
 								TextPresentedAtElementvalue
 								AttributeContains
 								AttributeTobe
@@ -176,7 +175,7 @@ attributeContains:-->
 	   An expecation to verify expected arrtibute contains at webelemnt...	
 	
 		WebdriverWait  wait=new WebDriverwait(driver,100);
-		wait.until(ExpectedConditions.attributeContains(By.id("x"),"attributename","attributevalue));
+		wait.until(ExpectedConditions.attributeContains(By.id("x"),"attributename","attributevalue"));
 				
 	
 	
