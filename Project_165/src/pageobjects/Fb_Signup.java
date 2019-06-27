@@ -9,8 +9,7 @@ import org.openqa.selenium.support.How;
 
 public class Fb_Signup 
 {
-	
-	
+
 	@FindBy(how=How.ID,using="u_0_l")
 	public WebElement Firstname_EB;
 	
@@ -27,7 +26,7 @@ public class Fb_Signup
 	public WebElement Password_EB;
 	
 	@FindBy(xpath = "//select[@aria-label='Day']")
-	public WebElement Month_DD;
+	public WebElement Day_DD;
 	
 	@FindBys(@FindBy(xpath="//select[@aria-label='Day']/option"))
 	public List<WebElement> Month_Options;
