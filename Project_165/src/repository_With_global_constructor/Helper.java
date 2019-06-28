@@ -1,4 +1,4 @@
-package method_parameters;
+package repository_With_global_constructor;
 
 import java.io.File;
 import java.text.DateFormat;
@@ -20,10 +20,17 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Repository 
+public class Helper 
 {
 	public WebDriver driver;
 	public WebDriverWait wait;
+	
+	
+	
+	public Helper(WebDriver driver) 
+	{
+		this.driver=driver;
+	}
 	
 	/*
 	 * Keywordname:-->  Launch diff browsers [Firefox,Chrome,IE]

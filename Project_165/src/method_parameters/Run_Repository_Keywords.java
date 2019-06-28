@@ -32,6 +32,11 @@ public class Run_Repository_Keywords {
 		
 		obj.Select_dropdown(signup.Day_DD, "12");
 		
+		
+		//Using Default locator
+		obj.Click_element(By.xpath("//a[contains(.,'Create a Page')]"));
+		
+		
 	}
 
 }
