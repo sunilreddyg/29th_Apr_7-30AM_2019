@@ -18,6 +18,7 @@ public class Run_Using_Inheritance extends Repository
 	{
 		try {
 			driver.close();
+			System.out.println("From Child class");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
@@ -30,8 +31,8 @@ public class Run_Using_Inheritance extends Repository
 		
 		//Create object for Classs
 		Run_Using_Inheritance obj=new Run_Using_Inheritance();
-		obj.Setup_browser();
-		obj.Capturescreen("Newimage.png");
+		//obj.Setup_browser();
+		//obj.Capturescreen("Newimage.png");
 		obj.Close_browser();
 		
 		

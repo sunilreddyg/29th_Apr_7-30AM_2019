@@ -498,7 +498,15 @@ public class Repository
 	}//Method
 	
 	
-	
+	public void Close_browser()
+	{
+		try {
+			driver.close();
+			System.out.println("From Parent class");
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+	}
 	
 
 }
