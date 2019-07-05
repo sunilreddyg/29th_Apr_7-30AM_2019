@@ -1,6 +1,7 @@
 /collections/
 /corejava/
 /datadriven_framework/
+/datadrivern_framework/
 /encapsulation/
 /example_inheritance/
 /findelements/
@@ -21,3 +22,4 @@
 /validation_commands/
 /waitcommands/
 /webdriver_locators/
+/framework_datadriven/
