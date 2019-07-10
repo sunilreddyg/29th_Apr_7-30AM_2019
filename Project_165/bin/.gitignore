@@ -6,6 +6,7 @@
 /example_inheritance/
 /findelements/
 /javascript/
+/keyword_driven_Framework/
 /launch_browsers/
 /method_parameters/
 /method_return_type/
@@ -22,6 +23,4 @@
 /validation_commands/
 /waitcommands/
 /webdriver_locators/
-/framework_datadriven/
 /framework_junit/
-/keyword_driven_Framework/

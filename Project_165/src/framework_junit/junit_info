@@ -1,6 +1,5 @@
 
 -----------------Junit----------------------------
-
 	 => junit is a unit testing framework
 	 => java developers use junit to debug progamms.
 
@@ -25,8 +24,8 @@ Note:--> Inorder to work with junit framework add libraries to java project.
 
 Add junit libraries to project:-->
 		=>Open buildpath and  select --> configure buildpath
-		=> Click add library and select junit library then click
-	  	next  ==> after completed adding jar files click
+		=> Click add library and select junit library then click next
+	  	=> after completed adding jar files click
 		finish to close buildpath window...
 
 

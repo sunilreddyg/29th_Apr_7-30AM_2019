@@ -26,5 +26,6 @@
 	<classpathentry kind="lib" path="D:/sunill/29th_Apr_7-30_AM_2019/selenium-libraries/poi-3.17/lib/commons-collections4-4.1.jar"/>
 	<classpathentry kind="lib" path="D:/sunill/29th_Apr_7-30_AM_2019/selenium-libraries/poi-3.17/lib/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="D:/sunill/29th_Apr_7-30_AM_2019/selenium-libraries/opencsv-3.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
