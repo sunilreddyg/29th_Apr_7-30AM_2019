@@ -5,6 +5,7 @@
 /encapsulation/
 /example_inheritance/
 /findelements/
+/framework_junit/
 /javascript/
 /keyword_driven_Framework/
 /launch_browsers/
@@ -23,4 +24,4 @@
 /validation_commands/
 /waitcommands/
 /webdriver_locators/
-/framework_junit/
+/framework_testng/
