@@ -5,22 +5,22 @@ import org.testng.annotations.Test;
 
 public class MyTestng_Test 
 {
-  @Test //invoke method execution
-  public void tc001() 
+  @Test
+  public void tc001()
   {
-	  Reporter.log("tc001 executed");
+	  Reporter.log("tc001 execited");
   }
   
-  @Test //invoke method execution
-  public void tc002() 
+  @Test
+  public void tc002()
   {
-	  Reporter.log("tc002 executed");
+	  Reporter.log("tc002 execited");
   }
   
-  @Test //invoke method execution
-  public void tc003() 
+  @Test
+  public void tc003()
   {
-	  Reporter.log("tc003 executed");
+	  Reporter.log("tc003 execited");
   }
   
   

@@ -15,6 +15,7 @@ public class IsDisplayed_For_Static_Elements
 		//set runtime environment variable
 		String driver_path="D:\\sunill\\29th_Apr_7-30_AM_2019\\Project_165\\drivers\\chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver",driver_path);
+		
 		//browser initiation
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://gmail.com/");

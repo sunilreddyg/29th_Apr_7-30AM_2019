@@ -287,12 +287,10 @@ public void Testmethod(String par1, String par2)
 	
 }
 
-	Note:--->  We can find Parameter information at emailable report.
+Note:--->  We can find Parameter information at emailable report.
 					
 =============================================================>
-
---->How to Execute Two are multiple tests with in suite 
-
+--->How to Execute Two are multiple tests with in suite.. 
 	
 <suite name="suite1">
 		<test name="test1">
@@ -305,7 +303,7 @@ public void Testmethod(String par1, String par2)
 </suite>
 
 
-----------------------------How to execute multiple tests parallel--------->
+-------How to execute multiple tests parallel--------->
 
 <suite name="sample"  parallel="tests">
 
@@ -340,7 +338,7 @@ public void Testmethod(String par1, String par2)
 
 
 
---------------------------------------Dataprovider------------------------>
+----------------Dataprovider------------------------>
 
 	Dataprovider is a annotation in testNG framework, It
 	organize input Data to Execute test methods..
@@ -349,8 +347,6 @@ public void Testmethod(String par1, String par2)
 		* Without Defining Loops we can Execute test with multiple set
 				of data.
 		* Dataprovider genarate input data in emailable report.
-
-
 
 Creating Dataprovider class:--->
 		Right click on package---->Create testng Class--->
